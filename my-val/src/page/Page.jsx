@@ -86,8 +86,8 @@ const Page = () => {
           ❤️ Удахгүй болох Гэгээн хайрын 💑 валентины баярын мэндийг хүргэе ❤️
         </h2>
         <img
-          className="w-20 h-20 p-2 rounded-full mx-auto"
-          src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjJwZmNzZTlya3dkbXA4MWYwZDdsdjRncXB4aGN4MmNrcWF5ajExZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OF9VWbLZ5xCl2uSMJg/giphy.gif"
+          className="w-72 h-72 p-2 rounded-full mx-auto"
+          src="https://scontent.fuln1-1.fna.fbcdn.net/v/t39.30808-6/471304926_10229121009555783_1805814774995884549_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=6xgCzs1wIzsQ7kNvgGz4BGJ&_nc_zt=23&_nc_ht=scontent.fuln1-1.fna&_nc_gid=A-VpBnCo6MiXWXaDhRZK6z7&oh=00_AYCyGyincpJcxogTj-R9esFHak_M13d1Gbz9NNp1-jYdOQ&oe=67A9651F"
           alt="image"
         />
       </div>
