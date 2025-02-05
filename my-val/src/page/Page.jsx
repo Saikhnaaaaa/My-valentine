@@ -74,9 +74,9 @@ const Page = () => {
   };
 
   return (
-    <div className="w-screen h-screen flex   flex-col  items-center justify-center mx-auto ">
+    <div className="w-screen h-screen flex    flex-col  items-center justify-center mx-auto ">
       <div className="flex-col lg:flex p-4 items-center justify-center">
-        <div className=" text-sm text-center lg:text-2xl mb-6 font-medium">
+        <div className="relative text-sm text-center lg:text-2xl mb-6 font-medium">
           <h3>Чамайг хайрла гээд зүрх цохилоод байна</h3>
           <h3>Чамайг мартваа гээд зүүд сануулаад байна</h3>{" "}
           <h3>Чамайг харах гээд харц хайгаад байна</h3>{" "}
@@ -90,7 +90,12 @@ const Page = () => {
           src="https://scontent.fuln1-1.fna.fbcdn.net/v/t39.30808-6/471304926_10229121009555783_1805814774995884549_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=6xgCzs1wIzsQ7kNvgGz4BGJ&_nc_zt=23&_nc_ht=scontent.fuln1-1.fna&_nc_gid=A-VpBnCo6MiXWXaDhRZK6z7&oh=00_AYCyGyincpJcxogTj-R9esFHak_M13d1Gbz9NNp1-jYdOQ&oe=67A9651F"
           alt="image"
         />
+        <div className="absolute right-20 top-100  lg:right-[800px]">
+        <img className="w-20 h-20 rounded-2xl" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDdsZmd6ajFxMTdzNmZjNDNqeXRjeTAxdDg2M2Z2eHFrOHRyamtoeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UkfUod3TFW66J2BWKK/giphy.gif" alt="" />
       </div>
+      </div>
+
+      
 
       <div>
         <h2 className="text-red-500 text-xl">{textYes}</h2>
